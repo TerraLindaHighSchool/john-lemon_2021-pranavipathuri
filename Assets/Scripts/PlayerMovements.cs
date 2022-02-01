@@ -26,7 +26,7 @@ public class PlayerMovements : MonoBehaviour
     {
         // Get user input
         float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("vertical");
+        float vertical = Input.GetAxis("Vertical");
 
         // Use user input to set direction player will move
         moveDirection.Set(horizontal, 0f, vertical);
